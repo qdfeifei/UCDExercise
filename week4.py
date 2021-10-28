@@ -1,3 +1,15 @@
+#main py pushed to Github for week3
+
+import pandas
+df=pandas.read_csv("Airplane_Crashes_and_Fatalities_Since_1908.csv")
+print(df.describe())
+print(df.head())
+
+df2=pandas.read_csv("titanic.csv")
+print(df2.describe())
+print(df2.head())
+
+# week4
 import pandas as pd
 netflix_data= pd.read_csv("netflix_titles.csv")
 print(netflix_data.head())
